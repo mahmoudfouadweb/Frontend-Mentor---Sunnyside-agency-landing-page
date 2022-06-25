@@ -17,6 +17,10 @@ body {
 /* HERO SECTION */
 /**************************/
 
+main {
+  max-width: 144rem;
+}
+
 .hero-section {
   background: url(./images/desktop/image-header.jpg);
   background-size: cover;
@@ -87,12 +91,58 @@ body {
   text-align: center;
   margin-top: 12rem;
 }
+
+.section-feature {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.section-text-box {
+  padding: 12rem;
+}
+
+.section-secondary-heading {
+  font-family: 'Fraunces', serif;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  margin-bottom: 2.4rem;
+}
+
+.section-feature-text {
+  font-size: 1.4rem;
+  color: hsl(210, 4%, 67%);
+  line-height: 1.6;
+  margin-bottom: 3.6rem;
+}
+
+.learn-more {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* border-bottom: 8px solid #fad400; */
+  box-shadow: 5px 0 3px #fad400;
+}
+
+.first {
+  background-image: url(./images/desktop/image-transform.jpg);
+  background-size: cover;
+}
 /**************************/
 /* REUSABLE COMPONENT */
 /**************************/
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2--col {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* my comments */
