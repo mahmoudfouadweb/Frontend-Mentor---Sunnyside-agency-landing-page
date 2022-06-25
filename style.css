@@ -106,6 +106,7 @@ main {
   font-weight: 900;
   letter-spacing: 1.5px;
   margin-bottom: 2.4rem;
+  line-height: 1.2;
 }
 
 .section-feature-text {
@@ -121,12 +122,40 @@ main {
   font-family: 'Fraunces', serif;
   font-weight: 700;
   text-transform: uppercase;
-  /* border-bottom: 8px solid #fad400; */
-  box-shadow: 5px 0 3px #fad400;
+  border-radius: 50px;
+  transition: all 0.3s;
+  cursor: pointer;
+  /* box-shadow: 5px 0 3px #fad400; */
+}
+
+.learn-more-1:hover {
+  border-bottom: 8px solid #fad400;
+}
+
+.learn-more-1 {
+  border-bottom: 8px solid #fad40054;
+}
+
+.learn-more-2 {
+  border-bottom: 8px solid #fe79674c;
+}
+
+.learn-more-2:hover {
+  border-bottom: 8px solid #fe7967;
 }
 
 .first {
   background-image: url(./images/desktop/image-transform.jpg);
+  background-size: cover;
+}
+
+.second {
+  background-image: url(./images/desktop/image-stand-out.jpg);
+  background-size: cover;
+}
+
+.section-text-box-one {
+  background: url(./images/desktop/image-graphic-design.jpg);
   background-size: cover;
 }
 /**************************/
