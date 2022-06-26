@@ -158,6 +158,85 @@ main {
   background: url(./images/desktop/image-graphic-design.jpg);
   background-size: cover;
 }
+
+.text-container {
+  align-self: flex-end;
+  padding: 17rem;
+  padding-bottom: 0;
+}
+
+.section-secondary-heading-end {
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.section-feature-text-end {
+  color: hsl(213, 9%, 39%);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 3.6rem;
+  text-align: center;
+}
+
+.section-text-box-two {
+  background: url(./images/desktop/image-photography.jpg);
+  background-size: cover;
+}
+
+.section-testimonials {
+  padding: 12rem;
+}
+
+.container {
+  /* gap: 2.4rem; */
+}
+
+.review-text {
+  font-size: 1.2rem;
+  color: hsl(213, 9%, 39%);
+  padding: 0 2.4rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.user-name {
+  font-size: 1.4rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: hsl(210, 4%, 67%);
+  text-align: center;
+}
+
+.testimonials-heading-primary {
+  font-family: 'Fraunces', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: hsl(210, 4%, 67%);
+  letter-spacing: 6px;
+  margin-bottom: 3.6rem;
+}
+
+.testimonials-img-box {
+  justify-content: center;
+  margin-bottom: 3.6rem;
+}
+
+.testimonials-img {
+  border-radius: 50%;
+  width: 4.4rem;
+}
 /**************************/
 /* REUSABLE COMPONENT */
 /**************************/
