@@ -47,7 +47,7 @@ main {
 }
 
 .list {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   cursor: pointer;
   font-size: 1.4rem;
   justify-content: space-between;
@@ -61,7 +61,7 @@ main {
   text-decoration: none;
   padding: 0.8rem 1.6rem;
   text-transform: uppercase;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   cursor: pointer;
   font-size: 1.4rem;
   transition: all 0.3s;
@@ -71,7 +71,7 @@ main {
 .link:hover {
   color: hsl(212, 27%, 19%);
   padding: 0.8rem 1.6rem;
-  background-color: #fff;
+  background-color: hsl(0, 0%, 100%);
   border-radius: 100px;
   text-transform: uppercase;
 }
@@ -81,12 +81,12 @@ main {
   font-size: 3.6rem;
   font-weight: 900;
   text-transform: uppercase;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   letter-spacing: 0.8rem;
 }
 
 .arrow {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   font-size: 9.4rem;
   text-align: center;
   margin-top: 12rem;
@@ -237,6 +237,80 @@ main {
   border-radius: 50%;
   width: 4.4rem;
 }
+
+.gallery-one {
+  background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+  background-size: contain;
+}
+
+.gallery-two {
+  background-image: url(./images/desktop/image-gallery-orange.jpg);
+  background-size: contain;
+}
+
+.gallery-three {
+  background-image: url(./images/desktop/image-gallery-cone.jpg);
+  background-size: contain;
+}
+
+.gallery-four {
+  background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+  background-size: contain;
+}
+
+.gallery {
+  height: 37rem;
+}
+
+.footer-section {
+  background-color: rgb(69, 140, 126);
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+
+.footer-logo {
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 4.4rem;
+}
+
+.footer-link:visited,
+.footer-link:link {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: hsl(167, 40%, 24%);
+  margin-left: 4.4rem;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.social {
+  justify-content: center;
+  list-style: none;
+}
+
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: hsl(167, 40%, 24%);
+  margin-left: 2.4rem;
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
 /**************************/
 /* REUSABLE COMPONENT */
 /**************************/
@@ -251,6 +325,10 @@ main {
 
 .grid-2--col {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-4--col {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 /* my comments */
